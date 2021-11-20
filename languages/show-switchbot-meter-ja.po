@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-11-18 08:23+0900\n"
+"PO-Revision-Date: 2021-11-18 08:25+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_ex\n"
+"X-Poedit-SearchPath-0: settings_admin_init.php\n"
+"X-Poedit-SearchPath-1: settings_admin_menu.php\n"
+"X-Poedit-SearchPath-2: shortcodes\n"
+
+#: settings_admin_init.php:22
+msgid "Show SwitchBot Meter Settings"
+msgstr "Show SwitchBot Meter 設定"
+
+#: settings_admin_init.php:75
+msgid ""
+"<div>As first step, setup is required with <em>SwitchBot Application Token</"
+"em>.</div><br>"
+msgstr ""
+"<div>最初に、<em>SwitchBot Application Token</em>を設定する必要があります。</"
+"div><br>"
+
+#: settings_admin_init.php:76
+msgid ""
+"<div>To obtain your own <em>Application token</em>, please execute following "
+"steps:</div>"
+msgstr ""
+"<div><em>Application token</em>を取得するために, 以下のステップを実行して下さ"
+"い:</div>"
+
+#: settings_admin_init.php:79
+msgid "<li> the SwitchBot app on App Store or Google Play Store </li>"
+msgstr ""
+"<li> App Store か Google Play Store にてSwitchBotアプリをインストールします</"
+"li>"
+
+#: settings_admin_init.php:80
+msgid "<li> Register a SwitchBot account and log in into your account</li>"
+msgstr "<li> SwitchBot アカウントを取得してログインします</li>"
+
+#: settings_admin_init.php:81
+msgid ""
+"<li> Generate an Application Token within the app a) Go to Profile > "
+"Preference b) Tap App Version 10 times. Developer Options will show up c) "
+"Tap Developer Options d) Tap Get Token</li>"
+msgstr ""
+"<li> Application Token はそのアプリから取得できます a) プロフィール > 設定 を"
+"開き b) アプリバージョンを10回タップすると「開発向けオプション」が表示されま"
+"す。 c) 「開発者向けオプション」をタップしして d) トークンを取得します</li>"
+
+#: settings_admin_init.php:82
+msgid "<li> Enter the token to below text box and click save button.</li>"
+msgstr ""
+"<li> 得られたトークンを、下記の Application Token のテキストボックスに登録し"
+"て「変更を保存」ボタンを押します</li>"
+
+#: settings_admin_init.php:85
+msgid ""
+"For more details, visit SwitchBot official <a target='_blank' href='https://"
+"github.com/OpenWonderLabs/SwitchBotAPI'>Github site. </a>"
+msgstr ""
+"より詳しい情報は SwitchBot official <a target='_blank' href='https://github."
+"com/OpenWonderLabs/SwitchBotAPI'>Github サイト </a>をご確認下さい"
+
+#: settings_admin_init.php:87
+msgid ""
+"<div>Once setup is completed successfully, shortcodes are listed on this "
+"screen.</div>"
+msgstr "<div>設定が完了すると、ショートコードの一覧が表示されます。</div>"
+
+#: settings_admin_menu.php:15
+msgid "SwitchBot API Setting"
+msgstr "SwitchBot API 設定"
+
+#: settings_admin_menu.php:70
+msgid ""
+"<div class=\"notice notice-error\"><p>Error occurs : no device found.<p></"
+"div>"
+msgstr ""
+"<div class=\"notice notice-error\"><p>エラーが発生しました。温度計が見つかり"
+"ません。<p></div>"
+
+#: settings_admin_menu.php:81
+#, php-format
+msgid ""
+"<div class=\"notice notice-error\"><p>Error occurs (message: \"%s\"). Check "
+"whether token is correct.</p></div>"
+msgstr ""
+"<div class=\"notice notice-error\"><p>エラーが発生しました。(メッセージ:  "
+"\"%s\").トークンが正しいかどうか確認して下さい。<p></div>"
+
+#: settings_admin_menu.php:87
+msgid "<h2>Available Switchbot Meter Devices</h2>"
+msgstr "<h2>利用可能なSwitchbot 温度計</h2>"
+
+#: settings_admin_menu.php:89
+msgid ""
+"<thead><tr><th>Device name</th><th>Device ID</th><th width=\"50%"
+"\">Shortcode</th></tr></thead>"
+msgstr ""
+"<thead><tr><th>デバイス名</th><th>デバイス ID</th><th width=\"50%\">ショート"
+"コード</th></tr></thead>"
+
+#: settings_admin_menu.php:99
+msgid "<span class='ssbm-shortcode-type-desc'>Temperature: </span>"
+msgstr "<span class='ssbm-shortcode-type-desc'>温度: </span>"
+
+#: settings_admin_menu.php:101
+msgid "<span class='ssbm-shortcode-type-desc'>Humidity: </span>"
+msgstr "<span class='ssbm-shortcode-type-desc'>湿度: </span>"
+
+#: settings_admin_menu.php:103
+msgid "<span class='ssbm-shortcode-type-desc'>Image: </span>"
+msgstr "<span class='ssbm-shortcode-type-desc'>画像: </span>"
+
+#: settings_admin_menu.php:116
+msgid "<h3>Embedded Image Types</h3>"
+msgstr "<h3>埋め込み画像</h3>"
+
+#: settings_admin_menu.php:117
+msgid ""
+"<div class\"switchbot-meter-thumgs-desc\"> You can use images below by "
+"specifying \"type\" field in shortcode \"ssbm-image\".</div><br>"
+msgstr ""
+"<div class\"switchbot-meter-thumgs-desc\"> 以下の画像は、ショートコード "
+"\"ssbm-image\"の\"type\"属性で指定できます。</div><br>"
+
+#: settings_admin_menu.php:142
+msgid "<h4> For developers..., </h4>"
+msgstr "<h4> 開発者向け情報 </h4>"
+
+#: settings_admin_menu.php:147
+msgid ""
+"This plugin exports REST API endpoint <code> /wp-json/show-switchbot-meter/"
+"v1/{deviceId}</code> . <br>"
+msgstr ""
+"このプラグインは <code> /wp-json/show-switchbot-meter/v1/{deviceId}</code> と"
+"いうREST APIのエンドポイントを公開します。 <br>"
+
+#: settings_admin_menu.php:148
+msgid "{deviceId} is available in device list above.<br><br>"
+msgstr "{deviceId} は上の利用可能な温度計一覧から得られるIDです。<br><br>"
+
+#: settings_admin_menu.php:149
+msgid ""
+"It will return temperature and humidity info from specific device in JSON "
+"format, something like below:</br>"
+msgstr "このAPIは温度と湿度を以下のようなJSONフォーマットで返します:</br>"
+
+#: settings_admin_menu.php:153
+msgid ""
+"\"unit\" attribute represents temperature unit, and \"0\" is for celsius, "
+"\"1\" is for fahrenheit."
+msgstr ""
+"ここで\"unit\"属性は、温度の単位を示し、0が摂氏（&#x2103; ）、1が華氏"
+"（&#x2109;）です。"
+
+#: shortcodes/sc_humidity.php:10 shortcodes/sc_image.php:13
+#: shortcodes/sc_temperature.php:10
+msgid "<div class='ssbm-error-message'>'deviceId' parameter is required</div>"
+msgstr ""
+"<div class='ssbm-error-message'>'deviceId' パラメータが必要です。</div>"
+
+#~ msgid "This plugin exports REST API endpoint"
+#~ msgstr "このプラグインは、REST APIのエンドポイントを追加します。"

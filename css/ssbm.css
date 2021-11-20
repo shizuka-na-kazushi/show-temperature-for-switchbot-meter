@@ -1,0 +1,63 @@
+
+/* this is show switchbot meter CSS file */
+
+.ssbm-image-type {
+  color: blue;
+}
+
+.ssbm-thumb-img {
+  vertical-align: middle; 
+  padding:2px 10px 2px 10px;
+}
+
+.ssbm-shortcode-type-desc {
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.ssbm-error-messsage {
+  color: red;
+}
+
+/* acordion ui */
+.ssbm-dev-info {
+  padding: 0 10px;
+}
+
+/*------------------------------
+
+ここからアコーディオンのCSS
+
+------------------------------*/
+/* チェックボックスを非表示にする */
+.ssbm-dev-info .accordion-hidden{
+  display: none;
+}
+
+/* Question部分 */
+.ssbm-dev-info .accordion-open {
+  display: block;
+  padding: 2px;
+  /*background: #52a261;*/
+  cursor: pointer;
+  margin: 0 0;
+  border: 1px dotted;
+  border-radius: 2px;
+}
+
+/* Answer部分は最初は表示しない */
+.ssbm-dev-info .accordion-close {
+  display: none;
+  transition: 0.5s;/* 表示速度の設定 */
+}
+
+/* チェックボックスにチェックが入ったらAnswer部分を表示 */
+.ssbm-dev-info .accordion-hidden:checked + .accordion-open + .accordion-close {
+  display: block;
+  padding: 10px;
+  background:rgba(0,0,0,.07);
+  border-width: 0px 1px 1px 1px;
+  border-style: dotted;
+  border-radius: 2px;
+}
+
