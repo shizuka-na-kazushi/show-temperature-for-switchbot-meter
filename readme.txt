@@ -45,10 +45,9 @@ Once you get Token, set it on plugin settings page to complete setup.
 == Frequently Asked Questions ==
 
 == Screenshots ==
-
-(Neet to be done)
-
-
+1. SwitchBot image with CURRENT temperature
+2. Config page to input App Token
+3. Config page for shortcode
 
 
 == Changelog ==
