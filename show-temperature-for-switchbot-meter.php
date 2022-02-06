@@ -4,7 +4,7 @@
  Plugin URI: https://wordpress.org/plugins/show-temperature-for-switchbot-meter
  Description: Show temperature and humidity which detected by SwitchBot Meter
  Author: Kazushi Yoshida
- Version: 1.0
+ Version: 1.1
  Author URI: https://profiles.wordpress.org/shizukanakazushi/
  License: GPLv2 or later
  Text Domain: show-switchbot-meter
